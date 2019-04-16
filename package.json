@@ -1,0 +1,27 @@
+{
+  "name": "ghost-to-jekyll",
+  "version": "1.0.0",
+  "description": "Converting a Ghost export to Jekyll files",
+  "preferGlobal": true,
+  "bin": {
+    "ghost-to-jekyll": "convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fusiongyro/ghost-to-jekyll.git"
+  },
+  "keywords": [
+    "ghost",
+    "jekyll"
+  ],
+  "author": "Daniel Lyons <fusion@storytotell.org>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/fusiongyro/ghost-to-jekyll/issues"
+  },
+  "homepage": "https://github.com/fusiongyro/ghost-to-jekyll#readme",
+  "dependencies": {
+    "js-yaml": "^3.7.0",
+    "moment": "^2.17.0"
+  }
+}
